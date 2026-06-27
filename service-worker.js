@@ -1,5 +1,5 @@
 /* 語言的魔力 · 30 天換框練習 — Service Worker（離線快取） */
-const CACHE = "reframe30-v1";
+const CACHE = "reframe30-v2";
 const ASSETS = [
   "./",
   "./index.html",
