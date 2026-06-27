@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<title>語言的魔力 · 30 天換框練習</title>
+<meta name="description" content="依據 Robert Dilts《Sleight of Mouth》14 種語言魔術模式，設計的 30 天每日換框練習。">
+<meta name="theme-color" content="#4213A9">
+<link rel="manifest" href="./manifest.json">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="換框練習">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">魔</div>
+        <div>
+          <h1>語言的魔力</h1>
+          <div class="sub">30 DAYS OF REFRAMING · SLEIGHT OF MOUTH</div>
+        </div>
+      </div>
+      <div class="progress-wrap">
+        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+        <div class="progress-meta">
+          <span>已完成 <b id="progressDone">0</b> / 30 天</span>
+          <span><b id="progressPct">0%</b></span>
+        </div>
+      </div>
+    </header>
+
+    <main id="view"><!-- 動態內容 --></main>
+  </div>
+
+  <nav class="tabbar">
+    <button class="tab active" data-tab="day"><span class="tico">📖</span>今日</button>
+    <button class="tab" data-tab="calendar"><span class="tico">🗓️</span>旅程</button>
+    <button class="tab" data-tab="reference"><span class="tico">✦</span>14式</button>
+    <button class="tab" data-tab="stats"><span class="tico">🌱</span>我的</button>
+  </nav>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
