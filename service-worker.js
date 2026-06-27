@@ -1,5 +1,5 @@
 /* 語言的魔力 · 30 天換框練習 — Service Worker（離線快取） */
-const CACHE = "reframe30-v2";
+const CACHE = "reframe30-v3";
 const ASSETS = [
   "./",
   "./index.html",
@@ -7,6 +7,7 @@ const ASSETS = [
   "./data.js",
   "./app.js",
   "./manifest.json",
+  "./images/header.png",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
   "./icons/icon-maskable.png"
